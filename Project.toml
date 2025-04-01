@@ -1,7 +1,13 @@
 name = "IncidenceMatrixTools"
 authors = ["chris-revell"]
-[compat]
-julia = "1.10.4"
-DrWatson = "2.15.0"
+
 [deps]
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+FromFile = "ff7dd447-1dcb-4ce3-b8ac-22a812192de7"
+InvertedIndices = "41ab1584-1d38-5bbf-9106-f11c6c58b48f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+DrWatson = "2.15.0"
+julia = "1.10.4"
