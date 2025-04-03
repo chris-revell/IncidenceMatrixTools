@@ -1,3 +1,8 @@
+#
+#  IncidenceMatrixTools.jl
+#  IncidenceMatrixTools
+#
+#  Created by Christopher Revell on 31/07/2024.
 
 module IncidenceMatrixTools
 
@@ -9,13 +14,12 @@ module IncidenceMatrixTools
     export ij_To_k
     export k_To_ij
     export makeIncidenceMatrix3D
-    export makeGhostVertexMask
-    export makeGhostEdgeMask
-    export makeGhostEdgeMaskNew
     export vertexVolumeWeightsMatrix
     export vertexVolumeWeightsInverseMatrix
     export edgeLengthMatrix
     export edgeLengthInverseMatrix
-    export setBoundaryEdgesToZero
+    export edgePerpendicularAreaMatrix
+    export makeGhostVertexMask
+    export makeGhostEdgeMask
 
 end

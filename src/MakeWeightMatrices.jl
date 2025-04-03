@@ -150,16 +150,13 @@ end
 #     return ghostMask
 # end
 
-export solChecks
-export makeGhostVertexMask
-export makeGhostEdgeMask
-# export makeGhostEdgeMaskNew
 export vertexVolumeWeightsMatrix
 export vertexVolumeWeightsInverseMatrix
 export edgeLengthMatrix
 export edgeLengthInverseMatrix
 export edgePerpendicularAreaMatrix
-# export setBoundaryEdgesToZero
+export makeGhostVertexMask
+export makeGhostEdgeMask
 
 end
 
